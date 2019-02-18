@@ -1,12 +1,12 @@
 #N canvas 282 199 502 491 10;
 #X obj 24 15 inlet;
 #X obj 31 281 outlet;
-#X obj 24 87 vabs/list-dripv;
+#X obj 24 87 gspd/list-dripv;
 #X obj 147 16 inlet;
 #X obj 106 62 list length;
 #X obj 88 209 ==;
 #X obj 24 40 t l l b, f 24;
-#X obj 24 131 vabs/add2list prepend, f 24;
+#X obj 24 131 gspd/add2list prepend, f 24;
 #X obj 24 152 t l l;
 #X obj 31 256 list;
 #X obj 24 174 list length;

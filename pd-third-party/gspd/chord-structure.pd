@@ -15,8 +15,8 @@
 #X text 125 101 lowest (real) note in the chord;
 #X obj 11 35 zexy/sort;
 #X obj 17 311 zexy/sort;
-#X obj 11 153 vabs/add2list;
-#X obj 11 107 vabs/list-dripv;
+#X obj 11 153 gspd/add2list;
+#X obj 11 107 gspd/list-dripv;
 #X connect 0 0 14 0;
 #X connect 1 0 8 0;
 #X connect 1 1 2 1;

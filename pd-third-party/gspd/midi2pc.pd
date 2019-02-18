@@ -11,8 +11,8 @@
 #X obj 211 170 list length;
 #X obj 52 33 t l b l;
 #X obj 46 280 outlet;
-#X obj 67 160 vabs/add2list prepend;
-#X obj 10 63 vabs/list-dripv;
+#X obj 67 160 gspd/add2list prepend;
+#X obj 10 63 gspd/list-dripv;
 #X connect 0 0 10 0;
 #X connect 1 0 11 0;
 #X connect 2 0 3 0;

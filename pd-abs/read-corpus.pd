@@ -3,10 +3,10 @@
 #X obj 16 485 / 4;
 #X obj 16 462 unpack 0 0 0 0 0;
 #X msg 84 213 read \$1;
-#X obj 139 376 pdmus/midi-player;
+#X obj 139 376 gspd/midi-player;
 #X obj 401 598 t b b;
 #X obj 172 665 outlet;
-#X obj 172 644 pdmus/midi-sort-events;
+#X obj 172 644 gspd/midi-sort-events;
 #X obj 292 532 * 8;
 #X obj 172 601 + 0;
 #X obj 84 234 t b a b, f 29;
@@ -22,8 +22,8 @@
 #X obj 238 509 t b b, f 7;
 #X msg 238 531 flush;
 #X obj 401 660 outlet;
-#X obj 16 442 vabs/oncev;
-#X obj 401 577 vabs/oncev;
+#X obj 16 442 gspd/oncev;
+#X obj 401 577 gspd/oncev;
 #X obj 84 278 t a b b;
 #X obj 509 149 f 1;
 #X obj 539 149 + 1;

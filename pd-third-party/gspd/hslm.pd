@@ -28,9 +28,9 @@
 #X obj 10 93 route mark;
 #X obj 80 93 route float;
 #X obj 279 34 loadbang;
-#X obj 10 247 vabs/vscale \$3 \$4 0 100;
-#X obj 80 128 vabs/vscale 0 127 0 100;
-#X obj 80 171 vabs/vscale 0 100 \$3 \$4;
+#X obj 10 247 gspd/vscale \$3 \$4 0 100;
+#X obj 80 128 gspd/vscale 0 127 0 100;
+#X obj 80 171 gspd/vscale 0 100 \$3 \$4;
 #X connect 0 0 16 1;
 #X connect 0 0 17 1;
 #X connect 1 0 7 0;

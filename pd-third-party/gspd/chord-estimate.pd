@@ -207,7 +207,7 @@
 #X obj 510 698 symbol;
 #X text 372 346 do not allow inversions other than 0 \, 1 \, 2 \, 3!
 ;
-#X obj 193 385 vabs/add2list prepend;
+#X obj 193 385 gspd/add2list prepend;
 #X obj 118 296 chord-structure;
 #X obj 118 318 list2int;
 #X connect 0 0 4 0;

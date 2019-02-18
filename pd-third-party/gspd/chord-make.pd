@@ -26,8 +26,8 @@
 #X text 23 109 notes off;
 #X text 16 463 https://github.com/angelfaraldo/pd-symbolic;
 #X text 16 478 angel.faraldo@upf.edu ----- Barcelona \, 2015;
-#X obj 29 272 vabs/add2list prepend;
-#X obj 170 281 vabs/add2list prepend;
+#X obj 29 272 gspd/add2list prepend;
+#X obj 170 281 gspd/add2list prepend;
 #X connect 0 0 18 0;
 #X connect 1 0 28 0;
 #X connect 1 1 28 1;

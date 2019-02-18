@@ -12,8 +12,8 @@
 #X obj 55 41 t l b l;
 #X obj 92 18 inlet;
 #X obj 13 93 + \$1;
-#X obj 70 168 vabs/add2list prepend;
-#X obj 13 71 vabs/list-dripv;
+#X obj 70 168 gspd/add2list prepend;
+#X obj 13 71 gspd/list-dripv;
 #X connect 0 0 10 0;
 #X connect 2 0 1 0;
 #X connect 3 0 4 0;

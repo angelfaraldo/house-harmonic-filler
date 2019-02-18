@@ -3,7 +3,7 @@
 #X obj 18 10 inlet;
 #X obj 18 76 list tosymbol;
 #X obj 18 98 outlet;
-#X obj 18 54 vabs/list-change;
+#X obj 18 54 gspd/list-change;
 #X connect 0 0 4 0;
 #X connect 1 0 0 0;
 #X connect 2 0 3 0;
